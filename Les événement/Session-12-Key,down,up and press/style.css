@@ -1,0 +1,56 @@
+h1{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 40%;
+    margin-top: 110px;
+    width: 550px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+}
+
+form{
+    margin-bottom: 100px;
+}
+
+button{
+    height: 30px;
+    width: 150px;
+    position: relative;
+    left: 20%;
+    background-color: aqua;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#nom{
+    margin-bottom: 20px;
+}
+#prenom{
+    margin-bottom: 20px;
+}
+#email{
+    margin-bottom: 20px;
+}
+#password{
+    margin-bottom: 20px;
+}
+#password-c{
+    margin-bottom: 40px;
+}
+
+.error{
+    border: 2px solid red;
+}

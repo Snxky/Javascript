@@ -1,0 +1,43 @@
+.form{
+    width: 300px;
+    height: 200px;
+    border: 3px solid aqua;
+    border-radius: 10px;
+    margin-top:200px;
+    margin-left: 625px;
+    background-color: azure;
+}
+
+input{
+    margin: 8px;
+}
+
+.buttons{
+    display: flex;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.first-button{
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.first-button:hover{
+    background-color: azure;
+}
+
+.second-button{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.second-button:hover{
+    background-color: azure;
+}
+
+.form{
+    padding-left: 15px;
+}
