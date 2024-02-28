@@ -1,0 +1,11 @@
+.container{
+    height: 100px;
+    width: 500px;
+    background-color: aqua;
+    margin: 40px;
+}
+
+.encadre{
+    border: 10px dotted red;
+    border-radius: 50px 100px;
+}
